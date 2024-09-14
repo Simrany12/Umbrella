@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.customizer {
+    margin: 50px auto;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.color-swatch {
+    margin: 20px 0;
+}
+
+.color-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.color-button.pink {
+    background-color: pink;
+}
+
+.color-button.blue {
+    background-color: blue;
+}
+
+.color-button.yellow {
+    background-color: yellow;
+}
+
+.umbrella-preview {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#umbrellaImage {
+    width: 100%;
+    height: auto;
+}
+
+#logoPreview {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.upload-section {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+}
